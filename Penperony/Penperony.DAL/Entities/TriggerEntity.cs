@@ -9,6 +9,8 @@
         public List<ProviderEntity> Providers { get; set; } = [];
         public List<ProductEntity> Products { get; set; } = [];
         public List<SellerEntity> Sellers { get; set; } = [];
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
+        public DateTime UpdatedAt { get; set;} = DateTime.Now;
 
     }
 }
